@@ -1,0 +1,32 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+body {
+  display: flex;
+  background-color: #cdb4db;
+}
+.login-choice {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+a:hover {
+  filter: brightness(45%);
+}
+h3 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+.login-choice-card {
+  border-radius: 5%;
+  background-color: #fae1dd;
+  margin: 1rem;
+  padding: 2rem;
+}

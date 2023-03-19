@@ -1,0 +1,48 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: "Montaga", serif;
+}
+body {
+  display: flex;
+  background-color: #a8dadc;
+}
+.loginForm {
+  padding: 2rem;
+  background-color: #ff758f;
+  color: white;
+  margin: auto;
+  border-radius: 5%;
+  text-align: center;
+}
+.loginForm h1 {
+  text-align: center;
+}
+.loginForm input {
+  margin: 0.5rem;
+  width: 300px;
+}
+.loginInput {
+  height: 1.5rem;
+  text-indent: 1ch;
+}
+.signIn-button {
+  width: 90%;
+  color: white;
+  background-color: #3a86ff;
+  border: none;
+  height: 2.5rem;
+  border-radius: 20px;
+}
+.signIn-button:hover {
+  cursor: pointer;
+  background-color: #3f37c9;
+}
+.goBackDiv {
+  text-align: right;
+}
+.goBackDiv a {
+  padding-right: 0.5rem;
+}
