@@ -13,7 +13,7 @@
   <body>
     <div class="loginForm">
       <form>
-        <h1>Faculty Login</h1>
+        <h1>Co-ordinator SignUp</h1>
         <input
           class="loginInput"
           type="email"
@@ -26,15 +26,22 @@
           type="password"
           id="loginPass"
           name="logPass"
-          placeholder="Password"
+          placeholder="Enter a new password"
         /><br />
-        <input class="signIn-button" type="submit" value="Sign In" />
+        <input
+          class="loginInput"
+          type="password"
+          id="loginPass"
+          name="logPass"
+          placeholder="Confirm password"
+        /><br />
+        <input class="signUp-button" type="submit" value="Sign Up" />
       </form>
-      <a href="./facultySignUp.html">
-        <button type="button" class="signUp-button">Sign Up</button>
-      </a>
-      <div class="goBackDiv">
-        <a href="./index.html">Go Back</a>
+      <div>
+        <p>
+          Already have an account?
+          <span><a href="./coordinatorLogin.html">Login</a></span>
+        </p>
       </div>
     </div>
   </body>
